@@ -61,7 +61,7 @@ const Home = async ({ searchParams }: SearchParams) => {
 
   return (
     <>
-      <section className="flex w-full flex-col-reverse">
+      <section className="flex w-full flex-col-reverse sm:flex-row justify-between sm:items-center gap-4">
         <h1 className="h1-bold text-dark100_light900">All Questions</h1>
 
         <Button

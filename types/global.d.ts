@@ -14,9 +14,9 @@ interface Question {
   title: string;
   tags: Tag[];
   author: Author;
-  createAt: Date;
+
   upvotes: number;
   answers: number;
-  createAt: date;
+  createAt: Date;
   views: number;
 }

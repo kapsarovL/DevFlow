@@ -61,7 +61,7 @@ const QuestionCard = ({
             textStyles="small-medium text-dark400_light800"
           />
           <Metric
-            imgUrl="/icons/eys.svg"
+            imgUrl="/icons/eye.svg"
             alt="views"
             value={views}
             title="Views"
